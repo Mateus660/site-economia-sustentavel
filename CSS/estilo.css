@@ -17,7 +17,6 @@ header > h1 {
    padding: 4px;
    border-radius: 6px;
    border-color: black;
-   margin: 5px 5px;
    box-shadow: 2px 2px 2px 2px  black;
 }
 
@@ -30,6 +29,7 @@ header > h1 {
 .escrita {
     font-family: Arial, Helvetica, sans-serif;
     margin-inline-start: 10px;
+    font-size: 1.2em;
 }
 
 #video {
@@ -39,3 +39,25 @@ header > h1 {
     margin: 10px 6px;
 }
 
+.subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.topico {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-inline-start: 10px;
+}
+
+.topico > h1 {
+    text-align: center;
+}
+
+.topico > h2 {
+    font-size: 1.2em;
+}
+
+img {
+    text-align: center;
+}
